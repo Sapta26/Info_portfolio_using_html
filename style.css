@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+	margin: 5% 20px;
+	padding: 10px;
+}
+header{
+	width: 100%;
+	height:auto;
+	border-bottom: 1px solid #999;
+	font-size: large;
+}
+
+h2{
+	margin:0;
+	font-size: larger;
+}
+
+p {
+	margin:0;
+}
+ul  {
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+.small{
+	font-size: 0.8em;	
+}
+.dark-grey{
+	color: #333;
+}
+.light-red{
+	color:rgb(147, 65, 65)
+}
+.underline{
+	text-decoration:underline;
+}
+
+#bio{
+	width: 70%;
+}
+#display-pic{
+	height: 150px;
+	width: 150px;
+	border: 1px solid #000;
+	border-radius:100%;
+	float:right;
+	position:absolute;
+	top: 60px;
+	left: 70%;
+	background:url(DSC 211.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	z-index: 1000;
+
+}
+.attr-sml {
+	height: 70px;
+}
+.attr-lg {
+	height: 140px;
+}
+
+.attributes{
+	width: 100%;
+	padding: 5px;
+	margin:5px 0;
+	position:relative;
+}
+.attr-title{
+	width: 18%;
+	height: 100%;
+	float:left;
+	display:inline-block;
+	border-right: 1px solid #999;
+	position:relative;
+}
+.attr-desc{
+	width: 80%;
+	float:left;
+	margin-left: 10px;
+	display:inline-block;
+	position:relative;
+}
